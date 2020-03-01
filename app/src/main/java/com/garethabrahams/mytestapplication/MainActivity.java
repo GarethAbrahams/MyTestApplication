@@ -36,10 +36,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        textField.setText("");
         Intent finalintent = getIntent();
         String results = finalintent.getStringExtra("lastResult");
-        mainTextView.setText("Final Main Screen: \n"+results);
+        mainTextView.setText(results);
 
     }
 
